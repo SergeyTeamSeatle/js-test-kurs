@@ -1,0 +1,7 @@
+{
+"dirFirst" : "./dir1",
+"dirSecond" :"./dir2",
+"fileName": "TEST_FILE.test",
+"fileDirFirst" : "./dir1/TEST_FILE.test",
+"fileDirSecond" :"./dir2/TEST_FILE.test"
+}

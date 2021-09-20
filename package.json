@@ -1,0 +1,17 @@
+{
+  "name": "auto_test_lesson_js",
+  "version": "1.0.0",
+  "description": "les_01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "S_K",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
