@@ -16,4 +16,4 @@ while (finish < start) {
     }
 
 }
-console.log("Пятниц 13-ого с 01/01/2000 до сегодня"+count)
+console.log("Пятниц 13-ого с 01/01/2000 до сегодня = "+count)

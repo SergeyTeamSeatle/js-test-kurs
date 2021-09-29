@@ -47,7 +47,7 @@ function RerollP1() {
             rl.question(nameP1 + " : which roll to re-roll? (1/2/3) ", function (answer) {
                 let selected = Number(answer)
                 console.log(selected)
-                if (selected == true && 1 <= selected && selected <4) {
+                if (Boolean(selected) == true && 1 <= selected && selected <4) {
                     rez.p1[selected - 1] = kub[Drop()]
                     console.log(rez.p1)
                 } else {
@@ -65,7 +65,7 @@ function RerollP2() {
             rl.question(nameP2 + " : which roll to re-roll? (1/2/3) ", function (answer) {
                 let selected = Number(answer)
                 console.log(selected)
-                if (selected == true && 1 <= selected && selected <4) {
+                if (Boolean(selected) == true && 1 <= selected && selected <4) {
                     rez.p2[selected - 1] = kub[Drop()]
                     console.log(rez.p2)
                 } else {
