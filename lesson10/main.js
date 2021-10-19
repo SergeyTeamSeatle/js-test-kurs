@@ -47,9 +47,7 @@ async function fifth() {
 
 
 zero
-    .then(() => {
-        return 1
-    })
+    .then(() => {})
     .then(() => first(function (rez) {
             second().then(() => {
                 third().then(() => {
